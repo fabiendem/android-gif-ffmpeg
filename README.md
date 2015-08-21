@@ -20,7 +20,7 @@ If not please follow: http://developer.android.com/tools/help/adb.html
 You need to install **FFMPEG first**  
 
 #### MacOS
-Please follow instructions at: https://trac.ffmpeg.org/wiki/CompilationGuide/MacOSX
+Please follow instructions at: https://trac.ffmpeg.org/wiki/CompilationGuide/MacOSX  
 It's dead simple via homebrew:
 ```
 brew install ffmpeg
@@ -32,22 +32,24 @@ Before first start, get the rights to run it: `chmod +x robotgif.sh`
 
 ## Usage
 
-Simply run `./robotgif.sh`!  
+Simply run `./robotgif.sh`  
 Your GIF will appear in the current working directory: `./video_android.gif`
 
 ### Specify parameters
 Possible to use a combination of parameters
 
-* GIF width in px
-```
-./robotgif.sh -width 400
-./robotgif.sh -w 400
-```
-
+#### Video Input
 * Bitrate for video capture (Mbps)
 ```
 ./robotgif.sh -bitrate 6
 ./robotgif.sh -b 6
+```
+
+#### GIF output
+* GIF width in px
+```
+./robotgif.sh -width 400
+./robotgif.sh -w 400
 ```
 
 ### Show help
