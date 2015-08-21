@@ -56,3 +56,6 @@ Possible to use a combination of parameters
 ```
 ./robotgif.sh -h
 ```
+
+### Run it from anywhere
+http://askubuntu.com/questions/153251/launch-shell-scripts-from-anywhere
